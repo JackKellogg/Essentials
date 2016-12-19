@@ -9,7 +9,7 @@ public class Essentials extends JavaPlugin {
         registerCommands();
     }
 
-    public void registerCommands(){
-        getCommand("gm").getExecutor(new Gamemode());
+    public void registerCommands() {
+        getCommand("gm").setExecutor(new Gamemode());
     }
 }
