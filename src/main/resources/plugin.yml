@@ -1,0 +1,4 @@
+main: com.skiheal.essentials.Essentials
+name: Essentials
+description: Plugin with essential commands.
+version: 1.0
