@@ -70,6 +70,7 @@ public class Gamemode implements CommandExecutor {
                     p.setGameMode(GameMode.SPECTATOR);
                     break;
                 default:
+                    // Send message
                     p.sendMessage(ChatColor.RED + "Invalid arguments! Usage: /<gm> [1|2|3|4]");
                     return true;
             }
@@ -77,7 +78,7 @@ public class Gamemode implements CommandExecutor {
             p.sendMessage(ChatColor.DARK_AQUA + "You are now in " + p.getGameMode().name().toLowerCase() + " mode!");
             return true;
         }
-
+        // Send message
         p.sendMessage(ChatColor.RED + "Invalid arguments! Usage: /<gm> [1|2|3|4]");
         return true;
     }
