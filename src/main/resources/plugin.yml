@@ -2,3 +2,5 @@ main: com.skiheal.essentials.Essentials
 name: Essentials
 description: Plugin with essential cmd.
 version: 1.0
+commands:
+    gm:
